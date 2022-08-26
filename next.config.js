@@ -7,16 +7,16 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
     images: {
-      // unoptimized: true,
+      unoptimized: true,
       allowFutureImage: true,
     },
   },
-  // exportPathMap: async function () {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/lightpaper': { page: '/lightpaper' },
-  //   }
-  // },
+  exportPathMap: async function () {
+    return {
+      '/': { page: '/' },
+      '/lightpaper': { page: '/lightpaper' },
+    }
+  },
 }
 
 module.exports = nextConfig
