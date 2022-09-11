@@ -89,6 +89,9 @@ function MobileNavigation() {
             <MobileNavLink href="https://skeb.jp" blank>
               Launch App
             </MobileNavLink>
+            <MobileNavLink href="https://stg-skeb-staking.vercel.app/" blank>
+              Launch Staking App
+            </MobileNavLink>
             {/* <div className="mt-8 space-y-3 sm:flex sm:space-y-0 sm:space-x-2">
               <Button
                 href="/Skeb_Coin_En_20220819 02.pdf"
@@ -133,6 +136,11 @@ export default function Header() {
             <NavLink href="https://skeb.jp" blank>
               Launch App
             </NavLink>
+
+            <NavLink href="https://stg-skeb-staking.vercel.app/" blank >
+              Launch Staking App
+            </NavLink>
+
           </div>
           {/* <div className="hidden items-center gap-x-2 lg:flex">
             <Button

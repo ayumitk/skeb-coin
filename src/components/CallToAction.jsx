@@ -35,6 +35,15 @@ export default function CallToAction() {
               Launch App
               <ExternalLinkIcon className="ml-1 inline-block h-5 w-5" />
             </Button>
+            <Button
+              href="https://stg-skeb-staking.vercel.app/"
+              color="white"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Launch Staking App
+              <ExternalLinkIcon className="ml-1 inline-block h-5 w-5" />
+            </Button>
           </div>
         </div>
       </Container>
