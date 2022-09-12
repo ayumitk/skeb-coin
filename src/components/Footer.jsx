@@ -90,7 +90,7 @@ export default function Footer() {
               <ExternalLinkIcon className="ml-1 inline-block h-5 w-5" />
             </a>
             <a
-              href="https://stg-skeb-staking.vercel.app/"
+              href="https://stake.skebcoin.com/"
               target="_blank"
               rel="noreferrer"
               className="text-neutral-500 hover:text-teal-500"

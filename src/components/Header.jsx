@@ -89,7 +89,7 @@ function MobileNavigation() {
             <MobileNavLink href="https://skeb.jp" blank>
               Launch App
             </MobileNavLink>
-            <MobileNavLink href="https://stg-skeb-staking.vercel.app/" blank>
+            <MobileNavLink href="https://stake.skebcoin.com/" blank>
               Launch Staking App
             </MobileNavLink>
             {/* <div className="mt-8 space-y-3 sm:flex sm:space-y-0 sm:space-x-2">
@@ -137,7 +137,7 @@ export default function Header() {
               Launch App
             </NavLink>
 
-            <NavLink href="https://stg-skeb-staking.vercel.app/" blank >
+            <NavLink href="https://stake.skebcoin.com/" blank >
               Launch Staking App
             </NavLink>
 
