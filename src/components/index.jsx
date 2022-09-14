@@ -9,7 +9,6 @@ import Hero from '@/components/Hero'
 import InthePress from '@/components/InthePress'
 import ListedExchanges from '@/components/ListedExchanges'
 import Logo from '@/components/Logo'
-import LogoClouds from '@/components/LogoClouds'
 import PartneringCompany from '@/components/PartneringCompany'
 import Roadmap from '@/components/Roadmap'
 import Skeb from '@/components/Skeb'
@@ -39,7 +38,6 @@ export {
   ListedExchanges,
   Layout,
   Logo,
-  LogoClouds,
   Expansion,
   NavLink,
   PartneringCompany,
