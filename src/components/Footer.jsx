@@ -1,6 +1,6 @@
 import { Container, Logo } from '@/components'
 import Link from 'next/link'
-import { ExternalLinkIcon } from '@heroicons/react/outline'
+import { ExternalLinkIcon, DownloadIcon } from '@heroicons/react/outline'
 
 export default function Footer() {
   const iconClasses = 'h-7 w-7'
@@ -97,6 +97,14 @@ export default function Footer() {
             >
               Launch Staking App
               <ExternalLinkIcon className="ml-1 inline-block h-5 w-5" />
+            </a>
+            <a
+              href="/brand-assets.zip"
+              download
+              className="text-neutral-500 hover:text-teal-500"
+            >
+              Brand Assets
+              <DownloadIcon className="ml-1 inline-block h-5 w-5" />
             </a>
           </div>
           <div className="order-1 mb-16 flex flex-col gap-y-2 sm:order-2">
