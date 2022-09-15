@@ -9,7 +9,7 @@ const logos = [
   {
     name: 'OKX',
     image: OkxLogo,
-    url: 'https://www.okx.com/markets/prices/skeb-coin-skeb',
+    url: 'https://www.okx.com/trade-spot/skeb-usdt',
   },
   {
     name: 'Huobi',
@@ -19,7 +19,7 @@ const logos = [
   {
     name: 'Uniswap',
     image: UniswapLogo,
-    url: 'https://app.uniswap.org/#/swap?inputCurrency=0x6D614686550B9E1c1DF4b2cD8f91C9D4df66C810',
+    url: 'https://app.uniswap.org/#/swap?outputCurrency=0x6D614686550B9E1c1DF4b2cD8f91C9D4df66C810&chain=mainnet',
   },
 ]
 
